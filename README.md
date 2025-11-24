@@ -1,29 +1,45 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # React + TypeScript + Vite
+=======
+# GabrielPage
+>>>>>>> 9b598aa9c9dd27a237bda7e3011d436dfaca6543
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GabrielPage is a personal academic landing page for **Gabriel Teixeira**, a PhD candidate in Astrophysics & Deep Learning.
 
-Currently, two official plugins are available:
+The site is a single-page application built with **React + TypeScript + Vite** and styled with **Tailwind CSS v3**. It is designed to present research, publications, talks and projects in a clean, modern and responsive layout.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Single-page layout with smooth navigation between sections
+- Custom background with abstract shapes
+- Academic-focused sections:
+  - Begin (hero section)
+  - About
+  - Research
+  - Publications
+  - Talks
+  - Projects
+  - Contact
+- Responsive design for mobile and desktop
+- Sticky navbar with active section highlight
+- Contact form integrated with **Formspree** for email submissions
+- Code structured with components and small data modules (for example, publications list)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **Framework:** React
+- **Language:** TypeScript
+- **Build tool / Dev server:** Vite
+- **Styling:** Tailwind CSS v3
+- **UI helpers:** Chakra UI (used as layout/container components; styling handled by Tailwind)
+- **Forms / Email:** Formspree
 
+<<<<<<< HEAD
       // Remove tseslint.configs.recommended and replace with this
       tseslint.configs.recommendedTypeChecked,
       // Alternatively, use this for stricter rules
@@ -75,3 +91,5 @@ export default defineConfig([
 =======
 
 >>>>>>> b73de4e176af582d92c1ffee50d0549bd36b1ddd
+=======
+>>>>>>> 9b598aa9c9dd27a237bda7e3011d436dfaca6543
