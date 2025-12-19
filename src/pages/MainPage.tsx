@@ -63,8 +63,12 @@ const MainPage: React.FC = () => {
                 Astrophysics • Deep Learning • Transients
               </span>
 
-              <h1 className="text-4xl md:text-5xl font-bold text-[#1F3A5F] leading-tight">
+              <h1 className="text-4xl md:text-5xl font-bold text-red leading-tight">
                 Gabriel Teixeira
+              </h1>
+
+              <h1 className="text-4xl md:text-5xl font-bold text-[#1F3A5F] leading-tight">
+                TESTE DEPLOYMENT
               </h1>
 
               <h2 className="text-lg md:text-xl font-medium text-[#355C85]">
