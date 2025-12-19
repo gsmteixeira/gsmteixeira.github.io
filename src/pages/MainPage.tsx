@@ -1,7 +1,8 @@
 import { Link } from "@chakra-ui/react";
 import PublicationsSection from "../components/section/PublicationSection";
-import React from "react";
 import { useState } from "react";
+import { RiDownloadFill } from "react-icons/ri";
+import { FaGithub } from "react-icons/fa";
 
 const MainPage: React.FC = () => {
   const [name, setName] = useState("");
@@ -86,11 +87,29 @@ const MainPage: React.FC = () => {
                 >
                   Explore my research
                 </a>
+
+                <a
+                  href="/cv_gabriel_teixeira_.pdf"
+                  download
+                  className=" inline-flex items-center rounded-full bg-[#1F3A5F] px-5 py-2 text-sm font-medium text-white shadow-md shadow-slate-400/40 hover:bg-[#355C85] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#355C85] focus-visible:ring-offset-2 focus-visible:ring-offset-[#f3f3f3] transition"
+                >
+                  <RiDownloadFill />
+                  <span className="ml-2">Download CV</span>
+                </a>
+
                 <a
                   href="#contato"
                   className="inline-flex items-center rounded-full border border-[#1F3A5F] px-5 py-2 text-sm font-medium text-[#1F3A5F] hover:bg-[#1F3A5F] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1F3A5F] focus-visible:ring-offset-2 focus-visible:ring-offset-[#f3f3f3] transition"
                 >
                   Get in touch
+                </a>
+
+                <a
+                  href="https://github.com/gsmteixeira"
+                  target="blank"
+                  className="inline-flex items-center rounded-full border border-[#1F3A5F] px-5 py-2 text-sm font-medium text-[#1F3A5F] hover:bg-[#1F3A5F] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1F3A5F] focus-visible:ring-offset-2 focus-visible:ring-offset-[#f3f3f3] transition "
+                >
+                  <FaGithub /> <span className="ml-2">GitHub</span>
                 </a>
               </div>
             </div>
