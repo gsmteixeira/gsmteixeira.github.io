@@ -12,7 +12,6 @@ The website is structured as a one-page portfolio with smooth navigation across 
 - Vite
 - Tailwind CSS v3
 - Chakra UI (layout components)
-- gh-pages (optional deploy script)
 
 ---
 
